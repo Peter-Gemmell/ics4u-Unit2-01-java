@@ -7,7 +7,10 @@
 * @since   2022-09-27
 */
 
-import java.util.ArrayList; // import the ArrayList class
+import java.util.ArrayList;
+/**
+*  Make class MrCoxallStack.
+*/
 
 public class MrCoxallStack {
 
@@ -36,15 +39,6 @@ public class MrCoxallStack {
     */
     public void push(final int pushNumber) {
         theStack.add(0, pushNumber);
-    }
-
-    /**
-    * The pop() function.
-    *
-    * @return Remove the op element and return it
-    */
-    public int pop() {
-        return theStack.remove(0);
     }
 
 }
