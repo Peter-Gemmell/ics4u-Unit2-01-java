@@ -25,7 +25,7 @@ public class MrCoxallStack {
     */
     public void showStack() {
         // print out the ShowStack
-        System.out.println("The stack list.");
+        System.out.println("\nThe stack list.");
         for (Integer aSingleElement : theStack) {
             System.out.println(aSingleElement);
         }
